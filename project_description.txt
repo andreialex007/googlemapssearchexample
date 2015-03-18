@@ -1,0 +1,9 @@
+Here is the project.
+
+--User will enter the US zip code or city then click search.
+
+--Google map will show all the florists on the map. When you drag the map then result will be updated.
+
+--System should pull all the results from google using google apis. No database needed.
+
+One-time Project: Create a landing page
