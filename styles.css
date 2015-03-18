@@ -1,0 +1,137 @@
+﻿body, html {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.ttable {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.trow {
+    display: table-row;
+}
+
+.tcell {
+    display: table-cell;
+}
+
+.grow {
+    bottom: 0;
+    height: 100%;
+}
+
+.top-search-bar {
+    position: absolute;
+    left: 87px;
+    top: 10px;
+    right: 123px;
+    height: 50px;
+    -webkit-box-shadow: 0px 10px 10px rgba(8, 8, 8, 0.3);
+    -ms-box-shadow: 0px 10px 10px rgba(8, 8, 8, 0.3);
+    box-shadow: 0px 10px 10px rgba(8, 8, 8, 0.3);
+}
+
+    .top-search-bar .ttable {
+        left: 0px;
+        top: 0px;
+        right: 0px;
+        height: 50px;
+    }
+
+    .top-search-bar .tcell {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+.fill-parent-relative {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.main-wrapper {
+}
+
+.search-icon-cell {
+    vertical-align: middle;
+    width: 55px;
+}
+
+    .search-icon-cell > i {
+        margin-left: 5px;
+    }
+
+
+
+.object-type {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.wrap-content {
+    white-space: nowrap;
+}
+
+.type-label {
+    vertical-align: middle;
+}
+
+    .type-label span {
+        margin-bottom: 3px;
+        display: inline-block;
+    }
+
+.apply-placeholder {
+    vertical-align: middle;
+}
+
+.tcell.object-type > select {
+    margin-bottom: 2px;
+}
+
+
+.apply-placeholder > a {
+    margin-bottom: 2px;
+}
+
+.map-area {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.labels {
+    color: red;
+    background-color: white;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    width: 40px;
+    border: 2px solid black;
+    white-space: nowrap;
+}
+
+.found-marker {
+    font-size: 11px;
+}
+
+.demo-copyright {
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    border: 2px solid black;
+    margin-left: -50px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 8px;
+}
